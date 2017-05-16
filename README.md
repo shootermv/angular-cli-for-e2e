@@ -2,6 +2,7 @@
 docker image for running e2e protractor test on bitbucket pipelines
 
 I found it very hard to configure bitbucket pipelines to run protractor configuration of angular/cli
+
 This is there i ended up:
 
 # example bitbucket-pielines.yml
