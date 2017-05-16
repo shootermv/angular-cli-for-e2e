@@ -5,13 +5,14 @@ I found it very hard to configure bitbucket pipelines to run protractor configur
 
 This is there i ended up:
 
+
 ## example bitbucket-pielines.yml
 
-  image: versys650/angular-cli-for-e2e
-
-  pipelines:
-    default:
-     - step:
+     image: versys650/angular-cli-for-e2e
+     
+     pipelines:
+      default:
+        - step:
         script: # Modify the commands below to build your repository.
           - npm install    
           - ng test --singleRun=true
