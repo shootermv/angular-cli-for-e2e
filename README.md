@@ -7,11 +7,11 @@ This is there i ended up:
 
 # example bitbucket-pielines.yml
 ==============
-image: versys650/angular-cli-for-e2e
+  image: versys650/angular-cli-for-e2e
 
-pipelines:
-  default:
-    - step:
+  pipelines:
+    default:
+     - step:
         script: # Modify the commands below to build your repository.
           - npm install    
           - ng test --singleRun=true
